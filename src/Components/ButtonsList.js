@@ -128,7 +128,7 @@ const ButtonsList = [
     },
     {
         name:"1",
-        value:"2",
+        value:"1",
         className:"",
         text:"1"
     },
