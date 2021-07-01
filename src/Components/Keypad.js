@@ -4,12 +4,20 @@ import { calculate } from "./calculate";
 
 function Keypad() {
   const [result, setresult] = useState("0");
-
+ 
   const handleClick = (e) => {
-    console.log(e);
     const { value } = e.target;
-    setresult(calculate(result, value));
+    setresult(calculate(result, value))
+
   };
+  const handleChange=()=>{
+
+  }
+  // function createMarkup() {
+  //   return {__html: };
+  // }
+  
+
   return (
     <div className="container">
       <div className="calulater-div  ">
@@ -17,8 +25,8 @@ function Keypad() {
           <input
             type="text"
             value={result}
-            onChange={() => null}
-            maxLength={15}
+            onChange={handleChange}
+            maxLength="12"
           />
         </div>
         <div className="button-div ">
@@ -30,9 +38,8 @@ function Keypad() {
                 onClick={handleClick}
                 onKeyPress={handleClick}
                 className={button.className}
-              >
-                {button.text}
-              </button>
+                dangerouslySetInnerHTML={{__html:button.text}}
+              />
             );
           })}
         </div>
