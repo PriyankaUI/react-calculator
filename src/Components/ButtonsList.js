@@ -29,7 +29,7 @@ const ButtonsList = [
         className:"operator1",
         text:")"
     },
-
+//----------- 2nd row
     {
         name:"squarey",
         value:"squarey",
@@ -60,6 +60,8 @@ const ButtonsList = [
         className:"operator",
         text:`&divide;`
     },
+
+    //--------3rd row
     {
         name:"sin",
         value:"sin",
@@ -90,6 +92,7 @@ const ButtonsList = [
         className:"operator",
         text:"&times;"
     },
+    //---------------4th row
     {
         name:"cos",
         value:"cos",
@@ -120,6 +123,7 @@ const ButtonsList = [
         className:"operator",
         text:"-"
     },
+    //----------5th row
     {
         name:"tan",
         value:"tan",
@@ -150,6 +154,7 @@ const ButtonsList = [
         className:"operator",
         text:"+"
     },
+    //--------6th row
     {
         name:"log10",
         value:"log10",
