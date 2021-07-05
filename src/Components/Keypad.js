@@ -32,7 +32,7 @@ function Keypad() {
       } else {
           switch(e.key) {
               case "Backspace":
-                  //e.preventDefault()
+                  e.preventDefault()
                       if(result.length === 1) {
                         setresult("0")
                       }else{
@@ -44,8 +44,8 @@ function Keypad() {
                   enter.click()
                   enter.focus()     
                   break;
-              case "c":     
-                  let clear = document.querySelector(`button[data-key="Clear"]`)
+              case "Delete":     
+                  let clear = document.querySelector(`button[data-key="C"]`)
                   clear.click()
                   clear.focus()     
                   break;
