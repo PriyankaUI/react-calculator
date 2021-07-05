@@ -6,35 +6,35 @@ const ButtonsList = [
         text:"C"
     },
     {
-        name:" &#8592;",
+        name:" Backspace",
         value:" &#8592;",
         className:"operator1",
         text:" &#8592;"
     },
     {
-        name:"",
+        name:"%",
         value:"%",
         className:"operator1",
         text:"%"
     },
     {
-        name:"",
+        name:"(",
         value:"(",
         className:"operator1",
         text:"("
     },
     {
-        name:"",
+        name:")",
         value:")",
         className:"operator1",
         text:")"
     },
 //----------- 2nd row
     {
-        name:"squarey",
-        value:"squarey",
+        name:"sin",
+        value:"sin",
         className:"operator1",
-        text:" x<sup>y</sup>"
+        text:"sin"
     },
     {
         name:"square",
@@ -55,7 +55,7 @@ const ButtonsList = [
         text:"1/x"
     },
     {
-        name:"&divide;",
+        name:"/",
         value:"/",
         className:"operator",
         text:`&divide;`
@@ -63,10 +63,10 @@ const ButtonsList = [
 
     //--------3rd row
     {
-        name:"sin",
-        value:"sin",
+        name:"cos",
+        value:"cos",
         className:"operator1",
-        text:"  sin"
+        text:"cos"
     },
     {
         name:"7",
@@ -87,17 +87,17 @@ const ButtonsList = [
         text:"9"
     },
     {
-        name:"&times;",
+        name:"*",
         value:"*",
         className:"operator",
         text:"&times;"
     },
     //---------------4th row
     {
-        name:"cos",
-        value:"cos",
+        name:"tan",
+        value:"tan",
         className:"operator1",
-        text:"cos"
+        text:"tan"
     },
     {
         name:"4",
@@ -125,28 +125,28 @@ const ButtonsList = [
     },
     //----------5th row
     {
-        name:"tan",
-        value:"tan",
+        name:"log10",
+        value:"log10",
         className:"operator1",
-        text:"tan"
+        text:"log"
     },
     {
         name:"1",
         value:"1",
         className:"",
-        text:"1"
+        text:"1",
     },
     {
         name:"2",
         value:"2",
         className:"",
-        text:"2"
+        text:"2",
     },
     {
         name:"3",
         value:"3",
         className:"",
-        text:"3"
+        text:"3",
     },
     {
         name:"+",
@@ -156,10 +156,10 @@ const ButtonsList = [
     },
     //--------6th row
     {
-        name:"log10",
-        value:"log10",
+        name:"log",
+        value:"log",
         className:"operator1",
-        text:"log"
+        text:"ln"
     },
     {
         name:"plusminus",

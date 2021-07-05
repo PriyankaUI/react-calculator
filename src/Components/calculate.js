@@ -15,6 +15,11 @@ export const calculate = (result, value) => {
     let rootValue = Math.sqrt(newResult);
     return rootValue;
   }
+  if (value === "raciprocal") {
+    let newResult = result;
+    let inverseValue = eval(1/newResult);
+    return inverseValue;
+  }
 
   if (value === "sin") {
     let newResult = result;
@@ -36,6 +41,11 @@ export const calculate = (result, value) => {
     let newResult = result;
     let log10Value = Math.log10(newResult);
     return log10Value;
+  }
+  if (value === "log") {
+    let newResult = result;
+    let logValue = Math.log(newResult);
+    return logValue;
   }
 
   if (value === "plusminus") {
